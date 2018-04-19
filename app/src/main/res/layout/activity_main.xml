@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fordiana.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/red_rose"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+
+        android:id="@+id/a_rose_message"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+
+        android:fontFamily="cursive"
+        android:gravity="right"
+        android:text="My first app is a rose for Diana."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+    <TextView
+
+        android:id="@+id/love_drew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="60dp"
+
+        android:fontFamily="cursive"
+        android:gravity="right"
+        android:text="Love, Drew"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+</RelativeLayout>
